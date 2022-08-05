@@ -1,5 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@400;500;600&family=Poppins&family=Roboto:wght@300&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+
+.header-container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.logo {
+  max-width: 80px;
+  display: flex;
+  position: relative;
+}
+.logo__red {
+  width: 40px;
+  height: 40px;
+  background-color: #f71275;
+  border-radius: 50%;
+}
+.logo__blue {
+  width: 40px;
+  height: 40px;
+  background-color: #060ce8;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
 }/*# sourceMappingURL=style.css.map */

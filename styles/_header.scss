@@ -1,0 +1,21 @@
+.header {
+    &-container {
+        @include container;
+    }
+}
+
+.logo {
+    max-width: 80px;
+    display: flex;
+    position: relative;
+    &__red {
+        @include logo-circle($red);
+    }
+    &__blue {
+        @include logo-circle($blue);
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}

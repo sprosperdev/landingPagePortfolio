@@ -1,0 +1,13 @@
+@mixin container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+@mixin logo-circle($bg) {
+    width: 40px;
+    height: 40px;
+    background-color: $bg;
+    border-radius: 50%;
+}
