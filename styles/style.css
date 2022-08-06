@@ -213,43 +213,25 @@ body {
 }
 
 .partners {
-  display: flexbox;
-  align-items: center;
+  padding: 5.5rem 2rem;
+}
+.partners-container {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
   padding: 0 2rem;
-  padding: 5.5rem 2rem;
+  position: relative;
 }
 
 .partners-hr {
-  align-items: center;
-  max-width: 24%;
-  margin-top: -10px;
-  margin-bottom: 5px;
-  margin-left: 35px;
+  max-width: 290px;
+  min-width: 80px;
+  display: flex;
+  margin-bottom: 15px;
 }
 
 .partners-text {
   display: flex;
-  align-items: center;
-}
-.partners-text__msg {
-  display: flex;
-}
-
-.partners-logo {
-  display: flex;
-  padding: 52px;
-}
-.partners-logo__img {
-  align-items: center;
-  height: 100px;
-  width: 10px;
-  flex-basis: 60%;
-  display: flex;
-  -moz-column-gap: 100rem;
-       column-gap: 100rem;
-  justify-content: center;
-  color: gray;
+  align-items: flex-end;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
