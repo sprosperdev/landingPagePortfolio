@@ -231,7 +231,22 @@ body {
 }
 
 .partners-text {
+  flex-direction: column;
+  flex-basis: 55%;
+}
+
+.partners-icons {
+  margin-top: 30px;
+  flex-basis: 45%;
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.partners-icons__icon {
+  height: 450px;
+  width: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  font-size: 100px;
+  color: #757575;
 }/*# sourceMappingURL=style.css.map */
