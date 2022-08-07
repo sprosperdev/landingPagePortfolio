@@ -353,4 +353,30 @@ body {
 .helpbusiness__desc {
   text-align: center;
   color: #757575;
+}
+
+.helpbusiness-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 2400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  padding: 5.5rem 2rem;
+  margin-top: -30px;
+}
+.helpbusiness-links__link {
+  text-decoration: none;
+  background: #060ce8;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 100px;
+  font-size: 1rem;
+  box-shadow: 5px 7px 5px rgb(203, 203, 207);
+}
+.helpbusiness-links__link:hover {
+  background: #cf075d;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
