@@ -263,7 +263,6 @@ body {
   padding: 5.5rem 2rem;
   margin-top: -320px;
   background: #f0eeee;
-  margin-bottom: -20px;
 }
 
 .middle-achieve {
@@ -330,4 +329,28 @@ body {
   display: flex;
   flex-direction: column;
   letter-spacing: -1px;
+}
+
+.helpbusiness {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  max-width: 2400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  padding: 5.5rem 2rem;
+  margin-top: 50px;
+}
+.helpbusiness__header {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.helpbusiness__desc {
+  text-align: center;
+  color: #757575;
 }/*# sourceMappingURL=style.css.map */
