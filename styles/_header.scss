@@ -79,6 +79,7 @@
         align-items: center;
         @include container;
         padding: 5.5rem 2rem;
+        margin-bottom: 100px;
     }
     
     .hero-text {
@@ -177,34 +178,35 @@
     
     .partners {
         padding: 5.5rem 2rem;
+        display: flex;
         &-container {
             @include container;
-            position: relative;
         }
     }
     
     .partners-hr {
-        max-width: 290px;
-        min-width: 80px;
-        display: flex;
-        margin-bottom: 15px;
+        padding: 0rem 2rem;
+        margin-bottom: -70px;
+        &__hr {
+            max-width: 300px;
+        }
     }
     
     .partners-text {
-        flex-direction: column;
-        flex-basis: 55%;
+        display: flex;
+        flex-basis: 35%;
+        font-size: .95rem;
     }
     
     .partners-icons {
-        margin-top: 30px;
-        flex-basis: 45%;
+        flex-basis: 65%;
         display: flex;
         column-gap: 1rem;
         &__icon {
             height: 450px;
             width: 30%;
             object-fit: cover;
-            font-size: 100px;
+            font-size: 60px;
             color: $body;
         }
     }
