@@ -206,7 +206,83 @@
             height: 450px;
             width: 30%;
             object-fit: cover;
-            font-size: 60px;
+            font-size: 55px;
+            color: $backgray;
+        }
+    }
+    
+    .middle {
+        display: flex;
+        align-items: center;
+        @include container;
+        padding: 5.5rem 2rem;
+        margin-top: -320px;
+        background: $backgraylight;
+        margin-bottom: -20px;
+    }
+    
+    .middle-achieve {
+        flex-basis: 40%;
+        &__heading {
             color: $body;
+            font-weight: 500;
+            letter-spacing: normal;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        &__desc {
+            font-weight: 1000;
+            font-size: 1.2em;
+            display: flex;
+            flex-direction: column;
+            letter-spacing: -1px;
+        }
+    }
+    
+    .middle-built {
+        flex-basis: 30%;
+        &__header {
+            font-weight: 900;
+            font-size: 1.4em;
+            letter-spacing: normal;
+            margin-bottom: 10px;
+        }
+        &__icon {
+            background-color: rgb(179, 126, 184);
+            color: white;
+            margin-left: -60px;
+            padding: 15px 15px;
+            border-radius: 50%;
+        }
+        &__desc {
+            font-size: 1rem;
+            color: $body;
+            display: flex;
+            flex-direction: column;
+            letter-spacing: -1px;
+        }
+    }
+    
+    .middle-sync {
+        flex-basis: 30%;
+        &__header {
+            font-weight: 900;
+            font-size: 1.4em;
+            letter-spacing: normal;
+            margin-bottom: 10px;
+        }
+        &__icon {
+            background-color: rgb(206, 44, 58);
+            color: white;
+            margin-left: -60px;
+            padding: 15px 15px;
+            border-radius: 50%;
+        }
+        &__desc {
+            font-size: 1rem;
+            color: $body;
+            display: flex;
+            flex-direction: column;
+            letter-spacing: -1px;
         }
     }
